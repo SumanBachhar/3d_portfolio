@@ -1,9 +1,16 @@
-import React from 'react'
-
+import { useEffect, useState } from "react";
+import { styles } from "../styles";
+import { navLinks } from "../constants";
+import { logo, menu, close } from "../assets";
+import { Link } from "react-router-dom";
 const Navbar = () => {
+  useState();
+  useEffect(() => {}, []);
   return (
-    <div>Navbar</div>
-  )
-}
+    <>
+      <Link />
+    </>
+  );
+};
 
-export default Navbar
+export default Navbar;
